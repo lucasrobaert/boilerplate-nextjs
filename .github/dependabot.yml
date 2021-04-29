@@ -1,0 +1,70 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "08:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: eslint-config-prettier
+    versions:
+    - 8.0.0
+    - 8.2.0
+  - dependency-name: next-pwa
+    versions:
+    - 5.2.14
+  - dependency-name: eslint
+    versions:
+    - 7.23.0
+    - 7.24.0
+  - dependency-name: "@storybook/react"
+    versions:
+    - 6.1.15
+    - 6.1.16
+    - 6.2.3
+    - 6.2.8
+  - dependency-name: "@storybook/addon-essentials"
+    versions:
+    - 6.1.15
+    - 6.1.16
+    - 6.1.19
+    - 6.2.2
+    - 6.2.3
+    - 6.2.8
+  - dependency-name: next
+    versions:
+    - 10.0.8
+    - 10.1.1
+    - 10.1.2
+  - dependency-name: "@typescript-eslint/parser"
+    versions:
+    - 4.14.1
+    - 4.15.0
+    - 4.17.0
+    - 4.18.0
+  - dependency-name: "@typescript-eslint/eslint-plugin"
+    versions:
+    - 4.14.1
+    - 4.15.0
+    - 4.17.0
+    - 4.18.0
+  - dependency-name: "@babel/core"
+    versions:
+    - 7.12.13
+    - 7.12.17
+    - 7.13.1
+    - 7.13.10
+  - dependency-name: husky
+    versions:
+    - 5.1.0
+    - 5.1.2
+  - dependency-name: "@babel/preset-typescript"
+    versions:
+    - 7.12.17
+  - dependency-name: "@types/react"
+    versions:
+    - 17.0.2
+  - dependency-name: typescript
+    versions:
+    - 4.1.4
